@@ -27,16 +27,10 @@ npm install
 npm install -D
 ```
 
-### Run (production)
+### Run
 
 ```bash
 npm start
-```
-
-### Run (development)
-
-```bash
-npm run dev
 ```
 
 ### Build
