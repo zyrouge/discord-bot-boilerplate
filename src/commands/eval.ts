@@ -3,7 +3,8 @@ import { AppFile } from "@/base/app";
 import { Command } from "@/base/plugins/commands";
 import { Emojis, Functions } from "@/util";
 
-const Owners: string[] = ["521007613475946496"];
+if (!process.env.OWNERS) throw new Error("Missing 'process.env.OWNERS'");
+const Owners: string[] = process.env.OWNERS.split(",");
 
 const fn: AppFile = (app) => {
     const command = new Command(
