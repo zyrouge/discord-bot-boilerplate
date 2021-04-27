@@ -1,5 +1,5 @@
 {
-  "name": "some-bot",
+  "name": "discord-bot",
   "version": "0.0.0",
   "private": true,
   "description": "",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zyrouge/music-bot.git"
+    "url": "git+https://github.com/zyrouge/discord-bot-boilerplate.git"
   },
   "author": "ZYROUGE",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zyrouge/music-bot/issues"
+    "url": "https://github.com/zyrouge/discord-bot-boilerplate/issues"
   },
-  "homepage": "https://github.com/zyrouge/music-bot#readme",
+  "homepage": "https://github.com/zyrouge/discord-bot-boilerplate#readme",
   "devDependencies": {
     "@types/node": "^14.14.41",
     "@types/pino": "^6.3.7",
