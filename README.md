@@ -11,6 +11,10 @@
 git clone https://github.com/zyrouge/discord-bot-boilerplate.git
 ```
 
+## Environmental Variables
+
+Rename `.env.example` to `.env` and fill the necessary fields
+
 ### Installing NPM packages (production)
 
 ```bash
